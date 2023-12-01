@@ -1,0 +1,50 @@
+/* IndexPage.css */
+
+body {
+  background-color: #141414; /* Netflix dark background color */
+  color: #ffffff; /* Text color */
+}
+
+.restaurants-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.restaurant-card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 45%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1c1c1c; /* Dark background color */
+  transition: transform 0.3s ease-in-out;
+}
+
+.restaurant-card:hover {
+  transform: scale(1.05);
+}
+
+.restaurant-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.restaurant-details {
+  margin-top: 15px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #e50914; /* Netflix red color */
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555555;
+}
